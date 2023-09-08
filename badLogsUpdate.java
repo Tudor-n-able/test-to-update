@@ -20,7 +20,7 @@ public class Test {
     }
 
     void myFunc0() {
-        logger.info(String.format("Log message info: blabla");
+        logger.info(String.format("Log message info: blabla"));
     }
     void myFunc7() {
         logger.info(String.format("Log message info: You completed this test"));
