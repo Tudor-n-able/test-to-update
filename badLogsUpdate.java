@@ -19,6 +19,9 @@ public class Test {
         logger.info(String.format("Log message info: orderstatus={%s}, errorcode={%d}, user={%s}, transactionid={%d}", orderstatus, errorcode, user, transactionId));
     }
 
+    void myFunc0() {
+        logger.info(String.format("Log message info: blabla");
+    }
     void myFunc7() {
         logger.info(String.format("Log message info: You completed this test"));
     }
