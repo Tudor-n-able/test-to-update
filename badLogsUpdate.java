@@ -13,14 +13,7 @@ public class Test {
     private String user = "N-able";
     private Long transactionId = 123L;
 
-    void myFunc0() {
-        logger.info(String.format("Log message info: orderstatus={%s},  transactionid={%d}", orderstatus, transactionId));
-        FakeLogger fakeLogger = new FakeLogger();
-        fakeLogger.error("FAKE LOGGER!!");
-    }
-    void myFunc7() {
-        logger.info(String.format("Log message info: You completed this test");
-    }
+    
     
     void myFunc0() {
         logger.info(String.format("Log message info: orderstatus={%s}, errorcode={%d}, user={%s}, transactionid={%d}", orderstatus, errorcode, user, transactionId));
