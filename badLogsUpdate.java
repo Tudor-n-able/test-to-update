@@ -19,6 +19,10 @@ public class Test {
         logger.info(String.format("Log message info: orderstatus={%s}, errorcode={%d}, user={%s}, transactionid={%d}", orderstatus, errorcode, user, transactionId));
     }
 
+    void myFunc7() {
+        logger.info(String.format("Log message info: You completed this test");
+    }
+
     void myFunc1() {
         Logger localLogger = (Logger) LoggerFactory.getLogger(Slf4j.class);
         localLogger.error(String.format("Log message error: orderstatus={%s}, errorcode={%d}, user={%s}, transactionid={%d}",
